@@ -22,7 +22,7 @@ Nota: Uma conta do Firebase é necessária para utilizar a funcionalidade de atu
 Clone o repositório para a sua máquina local. Abra o terminal e execute:
 
 ```sh
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/ezequiel88/taskmanager.git
 cd taskmanager
 ```
 
