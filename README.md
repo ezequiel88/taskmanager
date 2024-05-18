@@ -2,7 +2,7 @@
 
 ### Projeto de Gerenciamento de Tarefas 📝
 
-O TaskManager é uma aplicação de gerenciamento de tarefas desenvolvida para facilitar o controle e organização das suas atividades diárias. Com uma poderosa combinação de tecnologias, incluindo Vue3 no frontend, Laravel 11 no backend e Docker para a infraestrutura, o TaskManager oferece uma experiência eficiente e moderna.
+O TaskManager é uma aplicação de gerenciamento de tarefas usando as tecnologias Vue3 no frontend, Laravel 11 no backend e Docker para a infraestrutura.
 
 ### Pré-requisitos 🛠️
 
