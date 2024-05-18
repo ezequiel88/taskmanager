@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos da barra de rolagem */
+
+:root {
+  --scrollbar-track-color: #f4f4f4;
+  --scrollbar-thumb-color: #888;
+  --scrollbar-thumb-hover-color: #555;
+  --scrollbar-width: 12px;
+  --scrollbar-padding: 2px;
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-thumb-hover-color);
+}
+
+.scrollable-content {
+  padding-right: calc(var(--scrollbar-width) + var(--scrollbar-padding));
+}
+
+.swal2-cancel,
+.swal2-confirm {
+  padding: 6px 16px !important;
+}
+
+.swal2-title {
+  font-size: 20px !important;
+}
